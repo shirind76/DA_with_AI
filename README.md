@@ -4,9 +4,23 @@
 **How do gender and education influence attitudes toward social issues?**
 
 ## Dataset Information
-- **Source:** World Values Survey (WVS)
-- **Location:** `./WVS_subset.csv`
-- **Description:** The dataset contains responses from individuals regarding their attitudes towards social issues, along with demographic information such as gender and education level.
+- **Source:** World Values Survey (WVS)  
+- **Location:** `./WVS_subset.csv`  
+- **Description:** This dataset is a subset of the **World Values Survey (WVS)**, a global research initiative that collects data on people's **beliefs, values, and cultural norms** across various countries. The survey covers a wide range of **social, political, and economic attitudes**.  
+
+### **Dataset Details**
+- **Time Period:** The dataset includes responses from multiple survey waves, ranging from **1981 to the most recent wave (2022)**.  
+- **Number of Respondents:** The dataset consists of **approximately 97,220 respondents** from multiple countries.  
+- **Countries Covered:** The WVS dataset includes **over 90 countries**, representing diverse cultural and economic backgrounds. The subset used in this analysis may contain a selection of countries relevant to gender and education research.  
+- **Survey Methodology:**  
+  - **Sampling:** The WVS follows **random stratified sampling** to ensure representation across different demographic groups.  
+  - **Data Collection:** Face-to-face and online interviews were conducted, depending on the country's infrastructure.  
+  - **Response Scale:** Many questions use **Likert-type scales** (e.g., "Strongly agree" to "Strongly disagree") or categorical responses (e.g., "Yes/No").  
+
+### **Key Variables**
+- **Gender (Q260):** Identifies the gender of the respondent (1 = Male, 2 = Female, -2/-5 = No Data).  
+- **Education Level (Q275):** Measures the highest education level attained, categorized into readable groups.  
+- **Social Attitude Questions:** These include **trust in institutions, gender biases, and confidence in leadership** (see Table 1 below for details).  
 
 ## Table 1: Data Description
 | **Variable** | **Description** | **Possible Values** |
@@ -49,16 +63,6 @@ To better understand the data, the following visualizations have been generated:
   ![Is your father an immigrant? by Gender](figures/Q265_by_gender.png)
 - **How much confidence do you have in the World Bank? by Gender**  
   ![How much confidence do you have in the World Bank? by Gender](figures/Q87_by_gender.png)
-- **Is tolerance an important child quality? by Gender**  
-  ![Is tolerance an important child quality? by Gender](figures/Q12_by_gender.png)
-- **Is university more important for boys? by Gender**  
-  ![Is university more important for boys? by Gender](figures/Q30_by_gender.png)
-- **Do men make better political leaders? by Gender**  
-  ![Do men make better political leaders? by Gender](figures/Q29_by_gender.png)
-- **Should men have more right to a job? by Gender**  
-  ![Should men have more right to a job? by Gender](figures/Q33_by_gender.png)
-- **Are homosexual couples as good parents? by Gender**  
-  ![Are homosexual couples as good parents? by Gender](figures/Q36_by_gender.png)
 
 ### **Figures by Education Level**
 - **Most people can be trusted? by Education Level**  
@@ -71,15 +75,5 @@ To better understand the data, the following visualizations have been generated:
   ![Is your father an immigrant? by Education Level](figures/Q265_by_education.png)
 - **How much confidence do you have in the World Bank? by Education Level**  
   ![How much confidence do you have in the World Bank? by Education Level](figures/Q87_by_education.png)
-- **Is tolerance an important child quality? by Education Level**  
-  ![Is tolerance an important child quality? by Education Level](figures/Q12_by_education.png)
-- **Is university more important for boys? by Education Level**  
-  ![Is university more important for boys? by Education Level](figures/Q30_by_education.png)
-- **Do men make better political leaders? by Education Level**  
-  ![Do men make better political leaders? by Education Level](figures/Q29_by_education.png)
-- **Should men have more right to a job? by Education Level**  
-  ![Should men have more right to a job? by Education Level](figures/Q33_by_education.png)
-- **Are homosexual couples as good parents? by Education Level**  
-  ![Are homosexual couples as good parents? by Education Level](figures/Q36_by_education.png)
 
-_These visualizations help illustrate the influence of gender and education on social perceptions._
+_ These visualizations help illustrate the influence of gender and education on social perceptions._
